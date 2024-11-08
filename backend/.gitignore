@@ -1,0 +1,65 @@
+# General
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env*.local
+.DS_Store
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Compiled binary executables
+/bin/
+/vendor/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Log files
+*.log
+*.out
+
+# Coverage files
+*.cover
+*.out
+
+# Generated files by IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime
+*.sln
+*.suo
+*.tmp
+*.user
+*.cache
+*.vagrant/
+*.vspscc
+*.vssscc
+.backup*
+
+# Build directories
+/dist
+/obj
+/build
+/Release
+/Debug
+
+# Dependencies
+/Godeps/
+/vendor/
+*_test.go
+*.mod
+*.sum
+
+# Eclipse files
+.settings/
+.classpath
+.project
+.factorypath

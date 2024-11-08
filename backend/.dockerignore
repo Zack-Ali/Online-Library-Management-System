@@ -1,0 +1,9 @@
+# Ignore everything
+**
+
+# But whitelist files needed for the build
+!go.mod
+!go.sum
+!**/*.go
+!**/*.tmpl
+!**/*.html
